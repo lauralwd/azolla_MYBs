@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+data/alignments_trimmed/*.html
+analyses/*_fasttrees
+*.swp
