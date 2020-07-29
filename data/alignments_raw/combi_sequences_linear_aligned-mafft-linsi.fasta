@@ -66,7 +66,7 @@ PD-ATPVVEWYN-----PPDV-------------------YTLGGQPCHS----------
 FHHQ------------------------------DVVAELEHLGAAGHPV----------
 -------------ANHVW---------------------------------------EL-
 GSCPWNN-------MPGVCQLGDLPTDCR--------PLTSIADQMNDPCAIC
->VII_ENA|MN199011|MN199011.1 Selaginella moellendorffii
+>VII_ENA|MN199011|MN199011.1_Selaginella_moellendorffii
 MGDPM-------------------------------------------------------
 ------------------------------------------------------------
 --------------------------QGGVAAAAALELCEEGRGRGGGGGAVKGLKKGP-
@@ -100,7 +100,7 @@ PD----------------------------------------------------------
 LYQQ----------------------------------QQQQL-----------------
 ------------------------------------------------------------
 ---MWD-----------------------------------------------
->VII_Sacu_v1.1_s0002.g001222 Myb transcription factor [0.077]
+>VII_Sacu_v1.1_s0002.g001222_Myb_transcription_factor_[0.077]
 MENRKV------------------------------------------------------
 ------------------------------------------------------------
 -------------------WDYEGRSTPKKSGKEKHDEGGRVQRKEHGLAAAEVMKKGP-
@@ -134,7 +134,7 @@ PDQGLPTVEFCN-----ENANPV---R-------PTVNGESQEMIMSGQGE---------
 VYTQD-----------------------------SDAAEQVMIGS---------------
 -------------VTVGWGD----------------------------------------
 GSFTWDKSLEIMDEFPSVVTDYVSPAGCSKISP--------------------
->VII_Sacu_v1.1_s0041.g012546 Myb transcription factor [0.077]
+>VII_Sacu_v1.1_s0041.g012546_Myb_transcription_factor_[0.077]
 MERRLSSIS---HSAY--------------------------------------------
 ------------------------------------------------------------
 -------------------LRRADDSVHTFQDMKEQEHLDHLYFQEFSEDQATPLKKGP-
@@ -168,7 +168,7 @@ LD-SMSFAGLYE-----EQGGSS---S-------DAASMDPDEEFMNSGGG---------
 VHND-----------------------------------TATLDS---------------
 -------------SNTSWEQ-----------------------------------QQQLD
 SCLLWNN-------MPGAVEGRVLLMKHS-----LR----------------T
->VII_Sacu_v1.1_s0272.g027033 Myb transcription factor [0.077]
+>VII_Sacu_v1.1_s0272.g027033_Myb_transcription_factor_[0.077]
 MQNRQR----------------------------------YGEL-------------IRQ
 TEMEQHQQWCPTYAPPVASAAGSNDGSKKRERANESKGKSSSSRKRQRE-----------
 -----------AAAMGDGRGGNGRLAVQMGGSDGGDGQAERGSADGVNGRATAEMKKGP-
@@ -202,7 +202,7 @@ AS---------------EQ---------------------ASEDKKPKFGG---------
 ------------------------------------------------------------
 -------------IAAEFG-------------------------------------GNL-
 -EFTWTY-------IP-------------------------------------
->VII_MA_96853p0010[582 residues] 
+>VII_MA_96853p0010[582_residues]_
 MALVV-------------------------------------------------------
 ------------------------------------------------------------
 -------------------------YGNVAASASASASASATGATEQATEEVGTLKKGP-
@@ -236,7 +236,7 @@ PD-LLPDFDWNE-----Q----------------------IDDTEKEQSN----------
 MEKEQS---------------------HIDDALASMEKEQSHIDDALASFYP--------
 --------GDLAPSSQTW---------------------------------------EV-
 DSFPWSN-------ISGVC----------------------------------
->VII_MA_10208000p0010[602 residues] 
+>VII_MA_10208000p0010[602_residues]_
 MSSET-------------------------------------------------------
 ------------------------------------------------------------
 --------------------------SDSGATKEQQTLDAGGEVIGGGNGGGGSLKKGP-
@@ -270,7 +270,7 @@ PD-VSPVSDWYD-----S----------------------HAEVEKDHSA----------
 LFND------------------------------DFCVDIQQLASGPST-----------
 -------------SNQAW---------------------------------------GL-
 GSCHWNN-------MPGVTQIADLP----------------------------
->VII_MA_20462p0010[470 residues] 
+>VII_MA_20462p0010[470_residues]_
 MK----------------------------------------------------------
 ------------------------------------------------------------
 -------------------------------------KGRGIEDGTSLFTGEGALKKGP-
@@ -372,7 +372,7 @@ PSGAPPIADWYS-----D----------------------STEMSNAQSG----------
 VFEE------------------------------DMGLEMRHLTSSLSS-----------
 -------------NDQIW---------------------------------------AL-
 GSYAWNN-------LPGIC----------------------------------
->sp|Q8W1W6|MYB33_ARATH Transcription factor MYB33 OS=Arabidopsis thaliana OX=3702 GN=MYB33 PE=2 SV=1
+>sp|Q8W1W6|MYB33_ARATH_Transcription_factor_MYB33_OS=Arabidopsis_thaliana_OX=3702_GN=MYB33_PE=2_SV=1
 MS----------------------------------------------------------
 ------------------------------------------------------------
 -------------------------YTSTDSDHNESPAADDNGSDCRSRWDGHALKKGP-
@@ -406,7 +406,7 @@ PD-VLLASSWLD-----H----------------------GLGIVKETGS----------
 LLGD------------------------------DIGNDYMNMSVGASS-----------
 ---------------------------------------------------------GV-
 GSCSWSN-------MPPVCQMTELP----------------------------
->Azfi_s0004.g008455 Myb transcription factor [0.077]
+>Azfi_s0004.g008455_Myb_transcription_factor_[0.077]
 MNNIDIKLGDGFHSLYNIPSAMAQNRSVVIQKEQQINVNSHGKFDQSMQTKQKQKQDIQQ
 VERENSYH---------------NDTRNHNHHQHQHQIQNQNKNRQ--------------
 ------------EVFNCA---DQDQHQEEEDDDEEEDEEEAHGEAAGGEEAMAPLKKGP-
@@ -440,7 +440,7 @@ PLVEIDPLSFLGGRSLT------------------------LLS----------------
 ------------------------------------------------------------
 -------------AHSSY------------------------------------------
 -----------------VCQDSGFLATGK------------------------
->Azfi_s0021.g015882 Myb transcription factor [0.077]
+>Azfi_s0021.g015882_Myb_transcription_factor_[0.077]
 MEQHQR------------------------------------------------------
 ------------------------DHRRHFYHMIHTDYNNKQQQDI--------------
 ------------AVHHKS---QQQQEEEEEEEEKLKRKQEQEDAEEDAQGSNTMMKKGP-
@@ -474,7 +474,7 @@ PD-SLPLYHRRE-----EE---------------------GIEICDNGSGG---------
 ----------------------------------DV------------------------
 -------------NNNAW---------------------------------------EL-
 GSCMWSN-------MPGALQSK-------------------------------
->VI_g8575.t1 length:1504 (mRNA) (CHBRA15g00250)  (myb-related protein 305-like)
+>VI_g8575.t1_length:1504_(mRNA)_(CHBRA15g00250)__(myb-related_protein_305-like)
 MDSGGGAVVD--------------------------------------------------
 ----------------------ADDSALPAQHQGQSHPQAHGQKVAAQQQSVGGGKGGGA
 GPAVCKSESDAAAAVGGA-HGSSPLSLAGDEASAAAAGGKGVSGGAPAVGPKRPLKRGV-
@@ -508,7 +508,7 @@ MQVEPSKAMISGLRVGGVGSRYMDAAYGSTHPCASSAAVETSSPLTQTSRLQMRMPTTVG
 IHTQPTNGRRLAVGFSGHAHPQQEQQQHHYRFCSSSLLQTNGMRDATPPLGEAAVPPLRK
 RVETGDVCGVAGASALRYGGPPSAMTSVSHADTFRKGNDCLESNRLASVPVSAVLSGGD-
 GSLSWAQQYND---LDTVFLDSEADSIERMLDS-------------------C
->VI_BBG43567 LC221833 MYB transcription factor, partial [Chara australis]
+>VI_BBG43567_LC221833_MYB_transcription_factor,_partial_[Chara_australis]
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------PKRPLKRGV-
@@ -542,7 +542,7 @@ VKNFWNMRMKKLAKLAR----------LEKQRQRQL---------------------LIS
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------------------------------------------
->VI_BBG43566 LC221832 Chara leptospora mRNA for MYB transcription factor, partial cds,strain: TAN136.
+>VI_BBG43566_LC221832_Chara_leptospora_mRNA_for_MYB_transcription_factor,_partial_cds,strain:_TAN136.
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------PKRPLKRGV-
@@ -610,7 +610,7 @@ FD-SL------------EP-----------------------------------------
 ------------------------------------------------------------
 --------------APEW------------------------------------------
 ----WVARLS-------------------------------------------
->VI_XM_024688730.1 >XP_024544498.1
+>VI_XM_024688730.1_>XP_024544498.1
 MSIKTVQV----------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------GDEVLRKGP-
@@ -644,7 +644,7 @@ FD-SL------------AP-------R---------------------------------
 ------------------------------------------------------------
 -------------AATKF---------------F----------------LLAMLQHGF-
 GIWIYAARLDV-PLVPFSRRDAHLLVVSGYAIF-MKARFFSRR----------
->VI_XM_024688710 >XP_024544478.1 pentatricopeptide repeat-containing protein At1g11290, chloroplastic-like [Selaginella moellendorffii]
+>VI_XM_024688710_>XP_024544478.1_pentatricopeptide_repeat-containing_protein_At1g11290,_chloroplastic-like_[Selaginella_moellendorffii]
 MRSARDSI----H-----------------------------------------------
 ------------------------------------------------------------
 -------------------------AFDRIQSEGSSPAKSIIAAALKACGRVGDLQSGKR
@@ -678,7 +678,7 @@ LELDPCNSAAY------------------------------------------------V
 LMAN--------------------------------------------------------
 ----------ILQHASEW---------------------------------------DL-
 ------------KNSP-----------------KLRL----------------
->VI_XM_024688389.1 XP_024524157.1 transcription repressor MYB4 [Selaginella moellendorffii]
+>VI_XM_024688389.1_XP_024524157.1_transcription_repressor_MYB4_[Selaginella_moellendorffii]
 MV----------------------------------------------------------
 ------------------------------------------------------------
 --------------------V-------------------TKTMQHQQGGDQVVLRKGP-
@@ -712,7 +712,7 @@ FD-CL------------EP-----------------------------------------
 ------------------------------------------------------------
 -------------SSSEW------------------------------------------
 ----WMTRTS-------------------------------------------
->VI_Sacu_v1.1_s1503.g028048 Myb transcription factor [0.077]
+>VI_Sacu_v1.1_s1503.g028048_Myb_transcription_factor_[0.077]
 MA----------------------------------------------------------
 ------------------------------------------------------------
 -------------------------------------------AKSNGGGELEVLRKGP-
@@ -746,7 +746,7 @@ VKNFWSTRQKRLLRALQ----------RPKGVDSTS------GVTYGG--EDHFD-HLGN
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------------------C
->VI_Sacu_v1.1_s0147.g023157 Myb transcription factor [0.077]
+>VI_Sacu_v1.1_s0147.g023157_Myb_transcription_factor_[0.077]
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -780,7 +780,7 @@ VKNFWSTRQKRLLRALQ----------RPKGVDSTS------GVTYGG--EDHFD-HLGN
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------------------C
->VI_MA_130648p0010[437 residues] 
+>VI_MA_130648p0010[437_residues]_
 MQSAMKGVV---------------------------------------------------
 ------------------------------------------------------------
 -------------------------ENGSAITPSVTAIANTSTISNNNNSGEIQLRKGP-
@@ -814,7 +814,7 @@ LSLSP-------------------------------------------------------
 ------------------------------------------------------------
 -------------TAADW------------------------------------------
 ----WDSR---------------------------------------------
->VI_AmTr_v1.0_scaffold00111.43 locus=evm_27.TU.AmTr_v1.0_scaffold00111.43
+>VI_AmTr_v1.0_scaffold00111.43_locus=evm_27.TU.AmTr_v1.0_scaffold00111.43
 MI----------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------DAGAMRKGP-
