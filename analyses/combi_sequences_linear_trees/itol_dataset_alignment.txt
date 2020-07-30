@@ -21,7 +21,7 @@ COLOR,#ff0000
 #define one or more custom alignment coloring schemes. They will appear in the color scheme selection box
 #first field defines the scheme name, followed by a list of letters and their color assignments. Letters which do not
 #have a color defined will be displayed with a white background
-CUSTOM_COLOR_SCHEME,MY_SCHEME_1,A=#d2d0c9,M=#d2d0c9,I=#d2d0c9,L=#d2d0c9,V=#d2d0c9,P=#746f69,G=#746f69,C=#746f69,F=#d0ad16,Y=#d0ad16,W=#d0ad16,S=#34acfb,T=#34acfb,N=#34acfb,Q=#34acfb,R=#34fb54,K=#34fb54,H=#34fb54,D=#fb4034,E=#fb4034
+CUSTOM_COLOR_SCHEME,MY_SCHEME_1,A=#d2d0c9,M=#d2d0c9,I=#d2d0c9,L=#d2d0c9,V=#d2d0c9,P=#746f69,G=#746f69,C=#746f69,F=#d0ad16,Y=#d0ad16,W=#d0ad16,S=#34acfb,T=#34acfb,N=#34acfb,Q=#34acfb,R=#34fb54,K=#34fb54,H=#34fb54,D=#fb4034,E=#fb4034,-=#ffffff
 CUSTOM_COLOR_SCHEME,MY_SCHEME_2,A=#30a040,R=#2015a5,N=#10ffa0,D=#6048c0,C=#608a80,Q=#601f00,E=#5048c0,G=#702048,H=#a5a4a4,I=#1a30f0,L=#11a0f0,K=#003505,M=#00a0f0,F=#10a0f0,P=#0ff300,S=#93f300,T=#33ff00,W=#0a30f0,Y=#25a4a4,V=#90a3f0
 
 
@@ -38,7 +38,8 @@ SIZE_FACTOR,1
 
 #color scheme to use; possible values are 'none','clustal','zappo','taylor','hphob','helix','strand','turn' and 'buried'
 #if CUSTOM_COLOR_SCHEME is defined, its label can also be used here
-COLOR_SCHEME,clustal
+#COLOR_SCHEME,clustal
+COLOR_SCHEME,MY_SCHEME_1
 
 #start and stop residue of the alignment to display; note that the complete length should be below ~4000 residues
 START_POSITION,20
