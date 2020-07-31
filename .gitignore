@@ -3,3 +3,4 @@ data/alignments_trimmed/*.html
 analyses/*_fasttrees
 *.swp
 data/genome
+*.hmm.*
