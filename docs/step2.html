@@ -13991,11 +13991,28 @@ I do wonder if I should include more subfamilies in the phylogeny.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There's quite some improvements needed still, just thinking out loud here:</p>
+<h1 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">&#182;</a></h1><h3 id="VI-in-ferns?">VI in ferns?<a class="anchor-link" href="#VI-in-ferns?">&#182;</a></h3><p>After reading the manuscript and R&amp;J again, it struck me is that R&amp;J conclude that ferns have no Type VI R2R3MYBs.
+That doesn't fit with their figure two which includes two salvinia sequences in the VI description of domain. 
+This doesn't seem to be a fluke, for it is well supported in my tree. 
+Hence, at this moment, I think it is a typo in their manuscript or a misinterpretation.
+This leaves me with a problem. 
+Are these salvinia sequences type VI R2R3 MYBs?
+If Salvinia has them, Azolla should have them too. 
+To test this, I should try to retrieve those from the Azfi genome with blast or hmm-something, and check wether they are expressed and if so, if their expression in influenced by our experiments.</p>
+<h3 id="Salviniales-sequences-ancestral-to-VII-or-part-of-VII.">Salviniales sequences ancestral to VII or part of VII.<a class="anchor-link" href="#Salviniales-sequences-ancestral-to-VII-or-part-of-VII.">&#182;</a></h3><p>Unsurprisingly, the Azolla sequences find their way close to their Salvinia counterparts. 
+The salviniales branch is drawn ancestral to mosses and lycophytes, which shouldn't be the case.
+A pessimist may say that classifying them only by their Salvinia counterparts is not robust, and it is more likely that these Salvinales sequences are neither VII nor VI. 
+They could be type VIII or something else (unlinkely, based on alignment info, but still.)
+To more reliably interpret this tree, I should add some evolutionary context. 
+I guess it would be nice to make sure that they cluster together with the VII subfamily, even if I add a root, and some VIII and V sequences.</p>
+<h3 id="Intron-exon-structures-as-kind-of-secondary-line-of-evidence.">Intron-exon structures as kind-of-secondary line of evidence.<a class="anchor-link" href="#Intron-exon-structures-as-kind-of-secondary-line-of-evidence.">&#182;</a></h3><p>It may be nice to include the intron exon structure of all proteins including the Azfi ones, like R&amp;J did in their figure 1.
+This will be slow, for this data needs to be manually retrieved from all the respective databases, but it is a nice second line of evidence that supports the grouping of this tree.</p>
+<h3 id="figure-layout">figure layout<a class="anchor-link" href="#figure-layout">&#182;</a></h3><p>On the superficial side of things; there's quite some improvements needed still in the figure, just thinking out loud here:</p>
 <ol>
 <li>it's anoying that the two alignments don't have the same colour scheme</li>
 <li>in the bottom panel, some of the blanks are actually filled with sequence, but they are blank...</li>
 <li>Better annotation in top right panel of what residues differentiate VI from VII</li>
+<li>This shade of green is quite horrific and hard to read. Let's find something more suitable.</li>
 </ol>
 
 </div>
