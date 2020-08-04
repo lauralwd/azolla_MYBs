@@ -1,0 +1,116 @@
+---
+title: "plot bootstraps"
+author: "laura dijkhuizen"
+date: "04/08/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a late afternoon inquiry to see if plotting distributions of support values in trees is somewhat insightfull perhaps.
+
+# create simple tab files with bootstrap values
+```{bash}
+for t in analyses/*_trees/*/*.treefile
+do  out=$(echo $t | sed 's/.treefile/.bootstraptab/')
+    if   [ ! -f $out ]
+    then egrep -o ')[0-9./]+' $t | tr -d ')' | tr '/' '\t' > $out
+    fi
+done
+```
+
+### optionally, inspect your files for troubleshooting etc.
+```{bash}
+for t in analyses/*_trees/*/*.bootstraptab
+do  head $t
+done
+```
+
+
+# Read all tab files
+```{r pressure, echo=FALSE}
+library(data.table)
+files <- list.files(path = "analyses",recursive = TRUE,pattern = '*.bootstraptab',full.names = TRUE)
+tabs  <- lapply(X = files,FUN = fread, sep = '\t')
+```
+### now simplify these names a bit
+`
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+metatabs <- strsplit(x = files,split = '/')
+rm(combitab)
+combitab <- data.table()
+for (i in 1:length(tabs)) {
+  temp <- tabs[[i]]
+  if (dim(temp)[2] == 1) {
+   names(temp) <- 'nonparametricBootstrap'
+   temp$SHaLRT <- NA
+   temp$UFBootstrap <- NA
+  } 
+  if (length(names(temp)) == 2) {
+     names(temp) <- c('SHaLRT','UFBootstrap')  
+     temp$nonparametricBootstrap <- NA
+  }
+  temp$dataset <- metatabs[[i]][2]
+  temp$alignment <- metatabs[[i]][3]
+  temp$iqtree <- metatabs[[i]][4]
+  combitab <- rbind(combitab,temp,fill=T)
+  rm(temp)
+} 
+summary(combitab)
+head(combitab)
+rm(metatabs)
+
+```
+
+### melt dataframe to long format
+```{r}
+combitab <- melt(combitab,variable.name = 'bootstrapstrategy',id.vars = c('dataset','alignment','iqtree'),value.name = 'bootstrapvalue')
+```
+
+
+#plot 
+
+```{r}
+library(ggplot2)
+attach(combitab)
+plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=bootstrapstrategy))
+plot <- plot + geom_freqpoly()
+plot <- plot + theme_classic()
+plot <- plot + facet_grid(dataset~alignment)
+plot
+rm(plot)
+```
+
+```{r}
+library(ggplot2)
+attach(combitab)
+plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=alignment))
+plot <- plot + geom_freqpoly()
+plot <- plot + theme_classic()
+plot <- plot + facet_grid(dataset~bootstrapstrategy)
+plot
+rm(plot)
+```
+
+```{r}
+library(ggplot2)
+attach(combitab)
+plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=alignment))
+plot <- plot + geom_boxplot()
+plot <- plot + theme_classic()
+plot <- plot + facet_grid(dataset~bootstrapstrategy)
+plot
+rm(plot)
+```
+
+All and all, plotting support values like this is not very insighfull. 
+I'm quite surprised by how similar support distributions are for the different aligning strategies actually.
+Still one make some funny observations. For example the optimal trimming percentage (very naïve interpretation of optimal) differs for the different alignment strategies, but not for the two quick bootstrap methods.
+Perhaps the bootstrap artificially high for leniently trimmed alignments. 
+
+
+
+
