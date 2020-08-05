@@ -140,7 +140,7 @@ R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchant
 
 
 
-CDC5_XM_024677933.1_XP_024533701.1_transcription_factor_MYB61-like__Selaginella_moellendorffii_ label #CDDFA0 normal 1
+
 CDC5_XM_024686040.1_XP_024541808.1_cell_division_cycle_5-like_protein label #CDDFA0 normal 1
 CDC5_XM_002981114.2_XP_002981160.1_cell_division_cycle_5-like_protein__Selaginella_moellendorffii_ label #CDDFA0 normal 1
 CDC5_Mapoly0014s0195_PTQ45693.1_hypothetical_protein_MARPO_0014s0195__Marchantia_polymorpha_ label #CDDFA0 normal 1
@@ -185,8 +185,7 @@ VIII_Mapoly0073s0038_PTQ35164.1_hypothetical_protein_MARPO_0073s0038__Marchantia
 VIII_Mapoly0006s0226_PTQ48220.1_hypothetical_protein_MARPO_0006s0226__Marchantia_polymorpha_ label #216869 normal 1
 VIII_XM_024680104.1_XP_024535872.1_transcription_factor_MYB8-like__Selaginella_moellendorffii_ label #216869 normal 1
 VIII_MN199020_QIN53296.1_R2R3-MYB_transcription_factor__Selaginella_moellendorffii_ label #216869 normal 1
-ARP_XM_002962269.2_XP_002962315.1_transcription_factor_AS1__Selaginella_moellendorffii_ label #313715 normal 1
-ARP_Mapoly0040s0004_PTQ40315.1_hypothetical_protein_MARPO_0040s0004__Marchantia_polymorpha_ label #313715 normal 1
+
 Azfi_s0004.g008455 label #000000 bold 1
 Azfi_s0014.g013584 label #000000 bold 1
 Azfi_s0021.g015882 label #000000 bold 1
@@ -197,7 +196,11 @@ Azfi_s0129.g048859 label #000000 bold 1
 R1R2R3_MN199004_QIN53280.1_R1R2R3-MYB_protein__Selaginella_moellendorffii_ label #2E0014 normal 1
 R1R2R3_Mapoly0036s0107_PTQ41127.1_hypothetical_protein_MARPO_0036s0107__Marchantia_polymorpha_ label #2E0014 normal 1
 R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchantia_polymorpha_ label #2E0014 normal 1
-sp_Q8W1W6_MYB33_ARATH_Transcription_factor_MYB33_OS_Arabidopsis_thaliana_OX_3702_GN_MYB33_PE_2_SV_1 
+
+
+
+
+
 
 
 
