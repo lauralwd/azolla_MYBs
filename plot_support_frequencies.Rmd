@@ -23,9 +23,9 @@ done
 
 ### optionally, inspect your files for troubleshooting etc.
 ```{bash}
-for t in analyses/*_trees/*/*.bootstraptab
-do  head $t
-done
+#for t in analyses/*_trees/*/*.bootstraptab
+#do  head $t
+#done
 ```
 
 
@@ -53,14 +53,17 @@ for (i in 1:length(tabs)) {
      names(temp) <- c('SHaLRT','UFBootstrap')  
      temp$nonparametricBootstrap <- NA
   }
-  temp$dataset <- metatabs[[i]][2]
-  temp$alignment <- metatabs[[i]][3]
-  temp$iqtree <- metatabs[[i]][4]
+  temp$dataset   <- factor(metatabs[[i]][2])
+  temp$alignment <- as.character(metatabs[[i]][3])
+  temp$iqtree    <- factor(metatabs[[i]][4])
+  
   combitab <- rbind(combitab,temp,fill=T)
   rm(temp)
 } 
+combitab$nonparametricBootstrap <- as.numeric(combitab$nonparametricBootstrap)
+combitab$SHaLRT <- as.numeric(combitab$SHaLRT)
+combitab$UFBootstrap <- as.numeric(combitab$UFBootstrap)
 summary(combitab)
-head(combitab)
 rm(metatabs)
 
 ```
@@ -109,7 +112,9 @@ rm(plot)
 All and all, plotting support values like this is not very insighfull. 
 I'm quite surprised by how similar support distributions are for the different aligning strategies actually.
 Still one make some funny observations. For example the optimal trimming percentage (very naïve interpretation of optimal) differs for the different alignment strategies, but not for the two quick bootstrap methods.
-Perhaps the bootstrap artificially high for leniently trimmed alignments. 
+Perhaps the bootstrap is artificially high for leniently trimmed alignments. 
+It seems that the UF bootstrap correlates better with the nonparemetric bootstrap, at least, if you're trying to pick an alignment strategy and use this naïve method of optimising support in your tree (which you shouldn't, at least not without inspecting the trees and the alignments as well.).
+
 
 
 
