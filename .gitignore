@@ -4,3 +4,4 @@ analyses/*_fasttrees
 *.swp
 data/genome
 *.hmm.*
+*.bootstraptab
