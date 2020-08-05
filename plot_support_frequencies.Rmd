@@ -76,35 +76,38 @@ combitab <- melt(combitab,variable.name = 'bootstrapstrategy',id.vars = c('datas
 
 #plot 
 
-```{r}
+```{r,fig.height=10,fig.width=15,fig.dim='cm'}
 library(ggplot2)
 attach(combitab)
 plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=bootstrapstrategy))
 plot <- plot + geom_freqpoly()
 plot <- plot + theme_classic()
 plot <- plot + facet_grid(dataset~alignment)
+plot <- plot + theme(legend.position = 'bottom')
 plot
 rm(plot)
 ```
 
-```{r}
+```{r,fig.height=10,fig.width=15,fig.dim='cm'}
 library(ggplot2)
 attach(combitab)
 plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=alignment))
 plot <- plot + geom_freqpoly()
 plot <- plot + theme_classic()
 plot <- plot + facet_grid(dataset~bootstrapstrategy)
+plot <- plot + theme(legend.position = 'bottom')
 plot
 rm(plot)
 ```
 
-```{r}
+```{r,fig.height=8,fig.width=15,fig.dim='cm'}
 library(ggplot2)
 attach(combitab)
 plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=alignment))
 plot <- plot + geom_boxplot()
 plot <- plot + theme_classic()
 plot <- plot + facet_grid(dataset~bootstrapstrategy)
+plot <- plot + theme(legend.position = 'bottom')
 plot
 rm(plot)
 ```
