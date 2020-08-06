@@ -30,7 +30,7 @@ COLOR,#000000
 #or you can specify value, label, color, width, style and label size factor for each scale line (dash separated, format: VALUE-LABEL-COLOR-WIDTH-DASHED-LABEL_SCALE_FACTOR))
 #DATASET_SCALE,2000-2k line-#0000ff-5-1-1,10000-line at 10k-#ff0000-1-0-2,20000-3rd line-#00ff00-5-1-1
 
-DATASET_SCALE,0-0-#666666-5-1-5,1-1-#666666-5-1-5,2-2-#666666-5-1-5,3-3-#666666-5-1-5,4-4-#666666-5-1-5,5-5-#666666-5-1-5,6-6-#666666-5-1-5,7-7-#666666-5-1-5
+DATASET_SCALE,0-0-#666666-5-1-5,2-2-#666666-5-1-5,,4-4-#666666-5-1-5,,6-6-#666666-5-1-5
 
 #Each dataset can have a legend, which is defined using LEGEND_XXX fields below
 #For each row in the legend, there should be one shape, color and label.
@@ -54,7 +54,7 @@ DATASET_SCALE,0-0-#666666-5-1-5,1-1-#666666-5-1-5,2-2-#666666-5-1-5,3-3-#666666-
 
 
 #maximum width
-#WIDTH,1000
+WIDTH,350
 
 #left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
 #MARGIN,0
