@@ -13,7 +13,10 @@
    viewBox="0 0 566.92914 755.90553"
    id="svg10036"
    sodipodi:docname="myb_subfamiles+RNAseq+MSA.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/laura/MYBtree_v0.1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata10042">
     <rdf:RDF>
@@ -22,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,9 +45,9 @@
      id="namedview10038"
      showgrid="false"
      units="cm"
-     inkscape:zoom="2.126683"
-     inkscape:cx="250.86247"
-     inkscape:cy="325.57939"
+     inkscape:zoom="1.0633415"
+     inkscape:cx="406.42061"
+     inkscape:cy="381.69146"
      inkscape:window-x="74"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
