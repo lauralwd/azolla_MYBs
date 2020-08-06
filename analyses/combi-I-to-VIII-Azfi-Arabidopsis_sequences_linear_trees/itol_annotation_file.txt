@@ -178,6 +178,8 @@ Azfi_s0129.g048859 label #000000 bold 1
 Azfi_s0113.g045874_Myb_transcription_factor__0.077_ label #000000 bold 1
 Azfi_s0014.g013539_Myb_domain_protein_105__0.161_ label #000000 bold 1
 Azfi_s0009.g011773_Myb_domain_protein_67 label #000000 bold 1
+Azfi_s0021.g015882_Myb_transcription_factor__0.077_ label #000000 bold 1
+Azfi_s0004.g008455_Myb_transcription_factor__0.077_ label #000000 bold 1
 
 ### Colour Arabidopsis sequences with red branches and bold font.
 II_tr_A0A178UF86_A0A178UF86_ARATH_MYB119_OS_Arabidopsis_thaliana_OX_3702_GN_AXX17_At5g58240_PE_4_SV_1 label #000000 bold 1
