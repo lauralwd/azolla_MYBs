@@ -64,8 +64,8 @@ combitab$nonparametricBootstrap <- as.numeric(combitab$nonparametricBootstrap)
 combitab$SHaLRT <- as.numeric(combitab$SHaLRT)
 combitab$UFBootstrap <- as.numeric(combitab$UFBootstrap)
 summary(combitab)
-rm(metatabs)
-
+rm(metatab,tabs,i,files
+)
 ```
 
 ### melt dataframe to long format
