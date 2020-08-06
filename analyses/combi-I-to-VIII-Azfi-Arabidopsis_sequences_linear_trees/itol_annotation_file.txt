@@ -62,32 +62,7 @@ DATA
 # My attempt to colour the entire clade, but this only works if it is nicely monophyletic
 #HAOX-0009745|Mp3g05910.1|ENA_MN199011_MN199011.1_Selaginella_moellendorffii|Sacu_v1.1_s0002.g001222_Myb_transcription_factor__0.077_|Sacu_v1.1_s0041.g012546_Myb_transcription_factor__0.077_|Sacu_v1.1_s0272.g027033_Myb_transcription_factor__0.077_|MA_96853p0010_582_residues__|MA_10208000p0010_602_residues__|MA_20462p0010_470_residues__|AmTr_v1.0_scaffold00038.91|AmTr_v1.0_scaffold00037.85 clade #00ff00 normal 5
 
-### VI
-#g8575.t1_length label #ff0000 bold 1
-#BBG43567_LC221833_MYB_transcription_factor label #ff0000 bold 1
-#BBG43566_LC221832_Chara_leptospora_mRNA_for_MYB_transcription_factor label #ff0000 bold 1
-#Mapoly0019s0071.1 label #ff0000 bold 1
-#XM_024688730.1__XP_024544498.1 label #ff0000 bold 1
-#XM_024688389.1_XP_024524157.1_transcription_repressor_MYB4__Selaginella_moellendorffii_ label #ff0000 bold 1
-#Sacu_v1.1_s1503.g028048_Myb_transcription_factor__0.077_ label #ff0000 bold 1
-#Sacu_v1.1_s0147.g023157_Myb_transcription_factor__0.077_ label #ff0000 bold 1
-#MA_130648p0010_437_residues__ label #ff0000 bold 1
-#AmTr_v1.0_scaffold00111.43_locus_evm_27.TU.AmTr_v1.0_scaffold00111.43 label #ff0000 bold 1
-
-### VII
-#HAOX-0009745 label #00ff00 bold 1
-#Mp3g05910.1 label #00ff00 bold 1
-#ENA_MN199011_MN199011.1_Selaginella_moellendorffii label #00ff00 bold 1
-#Sacu_v1.1_s0002.g001222_Myb_transcription_factor__0.077_ label #00ff00 bold 1
-#Sacu_v1.1_s0041.g012546_Myb_transcription_factor__0.077_ label #00ff00 bold 1
-#Sacu_v1.1_s0272.g027033_Myb_transcription_factor__0.077_ label #00ff00 bold 1
-#MA_96853p0010_582_residues__ label #00ff00 bold 1
-#MA_10208000p0010_602_residues__ label #00ff00 bold 1
-#MA_20462p0010_470_residues__ label #00ff00 bold 1
-#AmTr_v1.0_scaffold00038.91 label #00ff00 bold 1
-#AmTr_v1.0_scaffold00037.85 label #00ff00 bold 1
-
-
+### colour branches of the different clades
 CDC5_XM_024686040.1_XP_024541808.1_cell_division_cycle_5-like_protein branch #CDDFA0 normal 1
 CDC5_XM_002981114.2_XP_002981160.1_cell_division_cycle_5-like_protein__Selaginella_moellendorffii_ branch #CDDFA0 normal 1
 CDC5_Mapoly0014s0195_PTQ45693.1_hypothetical_protein_MARPO_0014s0195__Marchantia_polymorpha_ branch #CDDFA0 normal 1
@@ -136,11 +111,7 @@ R1R2R3_MN199004_QIN53280.1_R1R2R3-MYB_protein__Selaginella_moellendorffii_ branc
 R1R2R3_Mapoly0036s0107_PTQ41127.1_hypothetical_protein_MARPO_0036s0107__Marchantia_polymorpha_ branch #2E0014 normal 1
 R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchantia_polymorpha_ branch #2E0014 normal 1
 
-
-
-
-
-
+### colour sequence labels of the different clades
 CDC5_XM_024686040.1_XP_024541808.1_cell_division_cycle_5-like_protein label #CDDFA0 normal 1
 CDC5_XM_002981114.2_XP_002981160.1_cell_division_cycle_5-like_protein__Selaginella_moellendorffii_ label #CDDFA0 normal 1
 CDC5_Mapoly0014s0195_PTQ45693.1_hypothetical_protein_MARPO_0014s0195__Marchantia_polymorpha_ label #CDDFA0 normal 1
@@ -185,25 +156,21 @@ VIII_Mapoly0073s0038_PTQ35164.1_hypothetical_protein_MARPO_0073s0038__Marchantia
 VIII_Mapoly0006s0226_PTQ48220.1_hypothetical_protein_MARPO_0006s0226__Marchantia_polymorpha_ label #216869 normal 1
 VIII_XM_024680104.1_XP_024535872.1_transcription_factor_MYB8-like__Selaginella_moellendorffii_ label #216869 normal 1
 VIII_MN199020_QIN53296.1_R2R3-MYB_transcription_factor__Selaginella_moellendorffii_ label #216869 normal 1
+R1R2R3_MN199004_QIN53280.1_R1R2R3-MYB_protein__Selaginella_moellendorffii_ label #2E0014 normal 1
+R1R2R3_Mapoly0036s0107_PTQ41127.1_hypothetical_protein_MARPO_0036s0107__Marchantia_polymorpha_ label #2E0014 normal 1
+R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchantia_polymorpha_ label #2E0014 normal 1
+
+### Colour Azolla labels black and bold font
 Azfi_s0014.g013584 label #000000 bold 1
 Azfi_s0035.g025508 label #000000 bold 1
 Azfi_s0041.g026722 label #000000 bold 1
 Azfi_s0076.g037908 label #000000 bold 1
 Azfi_s0129.g048859 label #000000 bold 1
-R1R2R3_MN199004_QIN53280.1_R1R2R3-MYB_protein__Selaginella_moellendorffii_ label #2E0014 normal 1
-R1R2R3_Mapoly0036s0107_PTQ41127.1_hypothetical_protein_MARPO_0036s0107__Marchantia_polymorpha_ label #2E0014 normal 1
-R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchantia_polymorpha_ label #2E0014 normal 1
 Azfi_s0113.g045874_Myb_transcription_factor__0.077_ label #000000 bold 1
 Azfi_s0014.g013539_Myb_domain_protein_105__0.161_ label #000000 bold 1
 Azfi_s0009.g011773_Myb_domain_protein_67 label #000000 bold 1
 
-
-
-
-
-
-
-
+### Colour Arabidopsis sequences with red branches and bold font.
 II_tr_A0A178UF86_A0A178UF86_ARATH_MYB119_OS_Arabidopsis_thaliana_OX_3702_GN_AXX17_At5g58240_PE_4_SV_1 label #000000 bold 1
 II_sp_Q9S7L2_MYB98_ARATH_Transcription_factor_MYB98_OS_Arabidopsis_thaliana_OX_3702_GN_MYB98_PE_2_SV_1 label #000000 bold 1
 II_sp_Q9LVW4_MY118_ARATH_Transcription_factor_MYB118_OS_Arabidopsis_thaliana_OX_3702_GN_MYB118_PE_2_SV_1 label #000000 bold 1
@@ -219,7 +186,6 @@ VIII_tr_F4K6R6_F4K6R6_ARATH_Myb_domain_protein_40_OS_Arabidopsis_thaliana_OX_370
 VII_tr_Q9SLH1_Q9SLH1_ARATH_Myb_domain_protein_81_OS_Arabidopsis_thaliana_OX_3702_GN_MYB81_PE_1_SV_1 label #000000 bold 1
 VII_sp_O80883_MB101_ARATH_Transcription_factor_MYB101_OS_Arabidopsis_thaliana_OX_3702_GN_MYB101_PE_2_SV_1 label #000000 bold 1
 VII_sp_Q8W1W6_MYB33_ARATH_Transcription_factor_MYB33_OS_Arabidopsis_thaliana_OX_3702_GN_MYB33_PE_2_SV_1 label #000000 bold 1
-
 
 II_tr_A0A178UF86_A0A178UF86_ARATH_MYB119_OS_Arabidopsis_thaliana_OX_3702_GN_AXX17_At5g58240_PE_4_SV_1 branch #ff0000 normal 1
 II_sp_Q9S7L2_MYB98_ARATH_Transcription_factor_MYB98_OS_Arabidopsis_thaliana_OX_3702_GN_MYB98_PE_2_SV_1 branch #ff0000 normal 1
