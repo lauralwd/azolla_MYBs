@@ -105,7 +105,7 @@ library(ggplot2)
 attach(combitab)
 plot <- ggplot(data=combitab,mapping = aes(x=bootstrapvalue,col=alignment))
 plot <- plot + geom_boxplot()
-plot <- plot + theme_classic()
+#plot <- plot + theme_classic()
 plot <- plot + facet_grid(dataset~bootstrapstrategy)
 plot <- plot + theme(legend.position = 'bottom')
 plot
