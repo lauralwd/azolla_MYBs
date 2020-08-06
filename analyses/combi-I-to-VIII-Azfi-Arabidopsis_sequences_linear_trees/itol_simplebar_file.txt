@@ -14,7 +14,7 @@ SEPARATOR COMMA
 DATASET_LABEL,label 1
 
 #dataset color (can be changed later)
-COLOR,#ff0000
+COLOR,#00ff00
 
 #=================================================================#
 #                    OPTIONAL SETTINGS                            #
@@ -86,6 +86,17 @@ COLOR,#ff0000
 #       Actual data follows after the "DATA" keyword              #
 #=================================================================#
 DATA
+Azfi_s0113.g045874_Myb_transcription_factor__0.077_,6.41,0.001990009325373
+Azfi_s0014.g013539_Myb_domain_protein_105__0.161_,2.07,0.004818895680136
+Azfi_s0004.g008455_Myb_transcription_factor__0.077_,1.93,0.00282879609459
+Azfi_s0014.g013584,1.74832070248817,0.211774478277571
+Azfi_s0035.g025508,0.915365217968366,0.10460051906981
+Azfi_s0041.g026722,1.80921798837837,0.716263299416061
+Azfi_s0076.g037908,0,0
+Azfi_s0129.g048859,0.170442897615592,0.991640936115397
+Azfi_s0009.g011773_Myb_domain_protein_67,1.00605587357277,0.017514266331649
+Azfi_s0021.g015882_Myb_transcription_factor__0.077_,2.51382021066261,0.121225790553002
+
 #ID1,value1
 #ID2,value2
 #9606,10000
