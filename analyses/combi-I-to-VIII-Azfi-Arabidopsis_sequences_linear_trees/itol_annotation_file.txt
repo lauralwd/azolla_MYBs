@@ -197,7 +197,6 @@ R1R2R3_Mapoly0036s0107_PTQ41127.1_hypothetical_protein_MARPO_0036s0107__Marchant
 R1R2R3_Mapoly0150s0001_PTQ28976.1_hypothetical_protein_MARPO_0150s0001__Marchantia_polymorpha_ label #2E0014 normal 1
 Azfi_s0113.g045874_Myb_transcription_factor__0.077_ label #000000 bold 1
 Azfi_s0014.g013539_Myb_domain_protein_105__0.161_ label #000000 bold 1
-Azfi_s0437.g069951_Homeodomain-like_superfamily_protein__0.413_ label #000000 bold 1
 Azfi_s0009.g011773_Myb_domain_protein_67 label #000000 bold 1
 
 
