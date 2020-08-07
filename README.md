@@ -1,3 +1,3 @@
 Does this work:
 
-![figures/myb_subfamiles+RNAseq_ufbootstrap.png]()
+![myb_subfamiles+RNAseq_ufbootstrap.png](figures/myb_subfamiles+RNAseq_ufbootstrap.png)
