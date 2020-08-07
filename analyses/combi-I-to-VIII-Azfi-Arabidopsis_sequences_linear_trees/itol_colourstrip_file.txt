@@ -13,7 +13,7 @@ DATASET_COLORSTRIP
 SEPARATOR SPACE
 
 #label is used in the legend table (can be changed later)
-DATASET_LABEL r2r3myb_subfamily
+DATASET_LABEL colour_strip_subfamilies
 
 #dataset color (can be changed later)
 COLOR #000ff0
