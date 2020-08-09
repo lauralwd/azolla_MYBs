@@ -14,9 +14,9 @@
    id="svg10036"
    sodipodi:docname="myb_subfamiles+RNAseq_normalbootstrap.svg"
    inkscape:version="1.0 (9f2f71dc58, 2020-08-02)"
-   inkscape:export-filename="/home/laura/gitprojects/azolla_mybs/figures/myb_subfamiles+RNAseq_ufbootstrap.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-filename="/home/laura/gitprojects/azolla_mybs/figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <metadata
      id="metadata10042">
     <rdf:RDF>
@@ -228,17 +228,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1848"
-     inkscape:window-height="1163"
+     inkscape:window-width="1448"
+     inkscape:window-height="1083"
      id="namedview10038"
      showgrid="false"
      units="cm"
      inkscape:zoom="0.75189599"
-     inkscape:cx="648.13971"
+     inkscape:cx="616.2204"
      inkscape:cy="299.71512"
-     inkscape:window-x="1992"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-x="2250"
+     inkscape:window-y="137"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer17"
      showguides="false"
      inkscape:document-rotation="0" />
