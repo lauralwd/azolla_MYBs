@@ -14,7 +14,7 @@ Final [complete fasta file ] used for the alignment which consists of:
  
 
 
-![myb_subfamiles+RNAseq_ufbootstrap.png](figures/myb_subfamiles+RNAseq_ufbootstrap.png)
+![myb_subfamiles+RNAseq_normalbootstrap-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png)
 
 
 ### Guide through folders and files
