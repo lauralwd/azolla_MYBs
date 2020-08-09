@@ -1,0 +1,105 @@
+DATASET_SIMPLEBAR
+#In simple bar charts, each ID is associated to a single numeric value which is displayed as a bar outside the tree.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,logfoldchange_value
+
+#dataset color (can be changed later)
+COLOR,#000000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+#dataset scale: you can simply set the values where the scale will be drawn
+#DATASET_SCALE,2000,10000,20000
+
+#or you can specify value, label, color, width, style and label size factor for each scale line (dash separated, format: VALUE-LABEL-COLOR-WIDTH-DASHED-LABEL_SCALE_FACTOR))
+#DATASET_SCALE,2000-2k line-#0000ff-5-1-1,10000-line at 10k-#ff0000-1-0-2,20000-3rd line-#00ff00-5-1-1
+
+DATASET_SCALE,0-0-#666666-5-1-5,2-2-#666666-5-1-5,,4-4-#666666-5-1-5,,6-6-#666666-5-1-5
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+#LEGEND_SHAPE_SCALES,1,1,0.5
+
+
+#maximum width
+WIDTH,350
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#show dashed lines between leaf labels and the dataset
+#DASHED_LINES,1
+
+#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#Display individual values above the bars
+#SHOW_VALUE,0
+
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount
+#BAR_SHIFT,0
+
+#BAR_ZERO specifies which dataset value will be used as a starting point for drawing the bars. Dataset values smaller than BAR_ZERO will be displayed to the left (possibly overlapping the tree, unless MARGIN is increased)
+#BAR_ZERO,0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars
+#BORDER_WIDTH,0
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+Azfi_s0113.g045874_Myb_transcription_factor__0.077_,6.41,0.001990009325373
+Azfi_s0014.g013539_Myb_domain_protein_105__0.161_,2.07,0.004818895680136
+Azfi_s0004.g008455_Myb_transcription_factor__0.077_,1.93,0.00282879609459
+Azfi_s0014.g013584,1.74832070248817,0.211774478277571
+Azfi_s0035.g025508,0.915365217968366,0.10460051906981
+Azfi_s0041.g026722,1.80921798837837,0.716263299416061
+Azfi_s0076.g037908,0,0
+Azfi_s0129.g048859,0.170442897615592,0.991640936115397
+Azfi_s0009.g011773_Myb_domain_protein_67,1.00605587357277,0.017514266331649
+Azfi_s0021.g015882_Myb_transcription_factor__0.077_,2.51382021066261,0.121225790553002
+
+#ID1,value1
+#ID2,value2
+#9606,10000
+#LEAF1|LEAF2,11000
