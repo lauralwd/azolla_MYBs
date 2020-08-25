@@ -17,15 +17,12 @@ or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_a
  * Trimmed input sequences [fasta](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta)
 or [png](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.png)
 
- 
- 
-
 ### Final figure with added MSA
 The MSA shown here is not included in the manuscript for size limitations. 
 It shows the region of R2R3 MYBs that is used to differentiate the different subfamilies as described by J&R.
+The figure that is used in the manuscript can be found [here](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png).
 
 ![myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png)
-
 
 ### Guide through folders and files
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
