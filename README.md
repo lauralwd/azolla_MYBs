@@ -66,8 +66,8 @@ These sequences originate from several databases, each with a slightly different
 The [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082) paper lists each of the species used here, and where to find the right database to search for accession numbers. 
 Those are predominantly:
  * NCBI nucleotide and protein.
- * [Fernbase](fernbase.org) for _Azolla filiculoides_ and _Salvinia cuculata_.
- * [Congenie](congenie.org) for _Picea abies_.
- * [marchantia.info](marchantia.info/search) for _Marchantia polymorpha_.
- * [uniprot](uniprot.org) for _Arabidopsis thaliana_ sequences.
+ * [Fernbase](https://www.fernbase.org/) for _Azolla filiculoides_ and _Salvinia cuculata_.
+ * [Congenie](http://www.congenie.org/) for _Picea abies_.
+ * [marchantia.info](https://marchantia.info/search) for _Marchantia polymorpha_.
+ * [uniprot](http://www.uniprot.org) for _Arabidopsis thaliana_ sequences.
 
