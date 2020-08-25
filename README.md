@@ -27,8 +27,8 @@ The figure that is used in the manuscript can be found [here](figures/myb_subfam
 ### Guide through folders and files
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
 File names tend to be long, but are meant to reflect the history of that specific file. 
-For example: `combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta` contains sequences from the subfamiles I to VIII and sequenes from _Azolla filiculoides_ and _Arabidopsis thaliana_. 
-The sequences were aligned with `mafft-einsi` and trimmed with a gap threshold of .4 (40%).
+For example: `combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta` contains a combination of sequences from the subfamiles I to VIII and sequences from _Azolla filiculoides_ and _Arabidopsis thaliana_. 
+Those sequences were then aligned with `mafft-einsi` and trimmed with a gap threshold of .4 (40%).
 
 The `analyses` folder contains tree inferences and annotation information for use in iToL.
 These are organised in folders of starting dataset, and then in folders of alignment and trimming strategy.
