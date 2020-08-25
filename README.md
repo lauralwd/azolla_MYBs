@@ -63,4 +63,13 @@ In building these trees, we have made use of publicly available data exclusively
 Most notably, we build here upon the work of [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
 _Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/)
 
-Each of these sequences and their original accession number are listed in [this fasta file]
+Each of these sequences and their original accession number are listed in the data folder, organised in files per subfamily type.
+These sequences originate from several databases, each with a slightly different naming system.
+The [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082) paper lists each of the species used here, and where to find the right database to search for accession numbers. 
+Those are predominantly:
+ * NCBI nucleotide and protein.
+ * [Fernbase](fernbase.org) for _Azolla filiculoides_ and _Salvinia cuculata_.
+ * [Congenie](congenie.org) for _Picea abies_.
+ * [marchantia.info](marchantia.info/search) for _Marchantia polymorpha_.
+ * [uniprot](uniprot.org) for _Arabidopsis thaliana_ sequences.
+
