@@ -42,11 +42,21 @@ These `.svg` files were then finalised in Inkscape to their published form and e
 The workflows shared here are documented in JuPyter notebooks (`*.ipynb`).
 Most notebooks contain intermediate work that is shared for transparency and reproducibility purposes and should be treated as such. 
 Alternativelly, the git history may be explored for more information.
- * In `step1_differentiate_subfamilies_VI_and_VII` we gather R2R3 MYB sequences type 6 & 7 and reproduce findings by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
- * In `step2_classify-Azfi-RNAseq-targets` we placed several _Azolla filiculoides_ sequences in the phylogeny of type 6 & 7 R2R3 MYBs and compare the differentiating domains as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
- * In `step3_VI-subfam_in_azolla` missing type VI sequences were identified in the _Azolla filiculoides_ genome and added to the phylogeny.
- * In `step4_expanding-phylogeny` the phylogenetic analysis was expanded with R2R3 MYB sequences from all subfamilies and not just VI and VII were taken into account.
- * Finally, in `step5_supplement-with-arabidopsis-sequences` some uninformative and rogue sequences were removed, _Arabidopsis thaliana_ sequences were added, more _Azolla filiculoides_ sequences were added, and the tree was annotated with RNA-seq data for _A. filiculoides_.
+ * In `step1_differentiate_subfamilies_VI_and_VII` 
+ [html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/step1_differentiate_subfamilies_VI_and_VII.html)
+ we gather R2R3 MYB sequences type 6 & 7 and reproduce findings by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ * In `step2_classify-Azfi-RNAseq-targets` 
+ [html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/step2_classify-Azfi-RNAseq-targets.html)
+ we placed several _Azolla filiculoides_ sequences in the phylogeny of type 6 & 7 R2R3 MYBs and compare the differentiating domains as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ * In `step3_VI-subfam_in_azolla` 
+ [html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/step3_VI-subfam_in_azolla.html)
+ missing type VI sequences were identified in the _Azolla filiculoides_ genome and added to the phylogeny.
+ * In `step4_expanding-phylogeny`
+ [html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/step4_expanding-phylogeny.html)
+ the phylogenetic analysis was expanded with R2R3 MYB sequences from all subfamilies and not just VI and VII were taken into account.
+ * Finally, in `step5_supplement-with-arabidopsis-sequences` 
+ [html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/step5_supplement-with-arabidopsis-sequences.html)
+ some uninformative and rogue sequences were removed, _Arabidopsis thaliana_ sequences were added, more _Azolla filiculoides_ sequences were added, and the tree was annotated with RNA-seq data for _A. filiculoides_.
  
 A template version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
 Note that figures which are embedded in the JuPyter notebooks may not be correctly displayed online on Github. 
