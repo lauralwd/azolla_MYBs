@@ -10,14 +10,14 @@ Additionally, this repository details all code and intermediate files used in th
  [pdf](figures/myb_subfamiles+RNAseq_normalbootstrap.pdf) and 
  [Inkscape_svg](figures/myb_subfamiles+RNAseq_normalbootstrap.svg). 
 
-Final alignment: 
-raw [fasta](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.fasta),
+Final input data: 
+ * Input sequences [fasta ](data/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear.fasta) 
+ * Aligned input sequences [fasta](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.fasta),
 or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.png)
-& 
-trimmed [fasta](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta)
+ * Trimmed input sequences [fasta](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta)
 or [png](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.png)
 
-Final [complete fasta file](data/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear.fasta) used for the alignment which consists of: 
+ 
  
 
 ### Final figure with added MSA
