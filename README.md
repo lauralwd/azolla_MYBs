@@ -4,52 +4,61 @@ Additionally, this repository details all code and intermediate files used in th
 \[enter doi link\]
 
 ### Quick links:
- * treefile
+ * [treefile](analyses/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_trees/aligned-mafft-einsi_trim-gt4/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4_iqtree-b1000.treefile)
  * main text figure 
- png, pdf Inkscape_svg
+ [png](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png), 
+ [pdf](figures/myb_subfamiles+RNAseq_normalbootstrap.pdf) and 
+ [Inkscape_svg](figures/myb_subfamiles+RNAseq_normalbootstrap.svg). 
 
-Final alignment: [raw]
-& [trimmed]
-Final [complete fasta file ] used for the alignment which consists of: 
+Final alignment: 
+raw [fasta](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.fasta),
+or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.png)
+& 
+trimmed [fasta](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta)
+or [png](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.png)
+
+Final [complete fasta file](data/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear.fasta) used for the alignment which consists of: 
  
 
+### Final figure with added MSA
+The MSA shown here is not included in the manuscript for size limitations. 
+It shows the region of R2R3 MYBs that is used to differentiate the different subfamilies as described by J&R.
 
-![myb_subfamiles+RNAseq_normalbootstrap-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png)
+![myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png)
 
 
 ### Guide through folders and files
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
 File names tend to be long, but are meant to reflect the history of that specific file. 
-For example: `1kP_LAR_orthogroup_manual-selection-1_guidev4_aligned-mafft-linsi_trim-gt6-seq80.fasta` contains sequences from the 1kP LAR orthogroup from which a manual selection was taken. 
-Second, a set of guide sequences (sequences whose function has been verified) was added.
-These sequences were then aligned with mafft-linsi and trimmed with trimAL settings.....
+For example: `combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta` contains sequences from the subfamiles I to VIII and sequenes from _Azolla filiculoides_ and _Arabidopsis thaliana_. 
+The sequences were aligned with `mafft-einsi` and trimmed with a gap threshold of .4 (40%).
 
-The `analyses` folder contains tree inferences. 
+The `analyses` folder contains tree inferences and annotation information for use in iToL.
 These are organised in folders of starting dataset, and then in folders of alignment and trimming strategy.
 Still, a folder may contain several tree inferences made with IQTree. 
 The final part of the filename summarises the settings used to create a particular tree file. 
 Note that intermediate trees are just that, intermediate results. 
 
-The `figures` folder contains the final versions of the figures shown in ...... in several formats. 
+The `figures` folder contains the final versions of the figures shown in the manuscript in several formats. 
 These were made by importing a `.treefile` in [iToL](https://itol.embl.de/), then adding annotation manually, and downloading these as `.svg` file.
+Annotation files for use in itol can be found in the different directories in the `analyses` directory
 These `.svg` files were then finalised in Inkscape to their published form and exported as pdf or png. 
 
 The workflows for which data is shared here, are documented in JuPyter notebooks (`*.ipynb`).
-The workflow describing the final version of the tree is [tree_building_workflow_v5].
+~~The workflow describing the final version of the tree is [tree_building_workflow_v5].~~
 
-The other workflows are explorative and should be interpreted as such. 
 A blank version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
-Note that figures which are embedded in the JuPyter notebooks are not properly displayed online on Github. 
+Note that figures which are embedded in the JuPyter notebooks may not properly displayed online on Github. 
 You may download the `.ipynb` files to display them locally, including images. 
-Alternatively, a html export may be found [here].
+Alternatively, a html export may be found accompanying the JuPy notebook file.
 
-Finaly, the `condaenv.yaml` file details all software names and versions that were used in this project.
+Finaly, the `envs` directory contains conda environment export files detailing all software names and versions that were used in this project.
 This file may be used to recreate the exact software environment for this analysis using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 To do so, issue a command like so `conda env create -f ./condaenv.yaml`. 
-One specific perl script that is not included in the conda environment, is stored in the `opt` directory.
 
 ### Data sources used in this project
 In building these trees, we have made use of publicly available data exclusively. 
+Most notably, we build here upon the work of [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
 _Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/)
 
 Each of these sequences and their original accession number are listed in [this fasta file]
