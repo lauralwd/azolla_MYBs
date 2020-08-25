@@ -42,8 +42,13 @@ Annotation files for use in itol can be found in the different directories in th
 These `.svg` files were then finalised in Inkscape to their published form and exported as pdf or png. 
 
 The workflows for which data is shared here, are documented in JuPyter notebooks (`*.ipynb`).
-~~The workflow describing the final version of the tree is [tree_building_workflow_v5].~~
-
+Several notebooks are made available here, most contain intermediate work that is shared for transparency and reproducibility purposes.
+ * In `step1_differentiate_subfamilies_VI_and_VII` we gather R2R3 MYB sequences type 6 & 7 and reproduce findings by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ * In `step2_classify-Azfi-RNAseq-targets` we placed several _Azolla filiculoides_ sequences in the phylogeny of type 6 & 7 R2R3 MYBs and compare the differentiating domains as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ * In `step3_VI-subfam_in_azolla` missing type VI sequences were identified in the _Azolla filiculoides_ genome and added to the phylogeny.
+ * In `step4_expanding-phylogeny` the phylogenetic analysis was expanded with R2R3 MYB sequences from all subfamilies and not just VI and VII were taken into account.
+ * Finally, in `step5_supplement-with-arabidopsis-sequences` some uninformative and rogue sequences were removed, _Arabidopsis thaliana_ sequences were added, more _Azolla filiculoides_ sequences were added, and the tree was annotated with RNA-seq data for _A. filiculoides_.
+ 
 A blank version of the workflow is maintained [here](https://github.com/lauralwd/lauras_phylogeny_wf).
 Note that figures which are embedded in the JuPyter notebooks may not properly displayed online on Github. 
 You may download the `.ipynb` files to display them locally, including images. 
