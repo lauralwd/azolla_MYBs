@@ -9,8 +9,6 @@ Additionally, this repository details all code and intermediate files used in th
  [png](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png), 
  [pdf](figures/myb_subfamiles+RNAseq_normalbootstrap.pdf) and 
  [Inkscape_svg](figures/myb_subfamiles+RNAseq_normalbootstrap.svg). 
-
-Final input data: 
  * Input sequences [fasta ](data/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear.fasta) 
  * Aligned input sequences [fasta](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.fasta),
 or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi.png)
