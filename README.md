@@ -1,5 +1,5 @@
 This repository contains a phylogenetic tree of R2R3 MYB transcription factors as shown in \[enter publication\].
-Additionally, this repository details all code and intermediate files used in the process towards that tree.
+Additionally, this repository details all code and intermediate files used in the process towards infering that tree.
 
 \[enter doi link\]
 
@@ -16,9 +16,9 @@ or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_a
 or [png](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.png)
 
 ### Final figure with added MSA
-The MSA shown here is not included in the manuscript for size limitations. 
-It shows the region of R2R3 MYBs used to differentiate the different subfamilies as described by J&R.
-The figure included in the paper is available [here](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png).
+The MSA shown below is not included in the manuscript for size limitations. 
+It shows the region of R2R3 MYBs used to differentiate the different subfamilies as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+The figure actually included in the paper is available [here](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png).
 
 ![myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png)
 
@@ -49,19 +49,19 @@ Alternatively, a html export may be found accompanying the JuPy notebook file.
  * In `step1_differentiate_subfamilies_VI_and_VII` 
  ([html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/html_step1_differentiate_subfamilies_VI_and_VII.html) & 
  [ipynb preview](https://github.com/lauralwd/azolla_MYBs/blob/main/step1_differentiate_subfamilies_VI_and_VII.ipynb))
- we gather R2R3 MYB sequences type 6 & 7 and reproduce findings by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ we gather R2R3 MYB sequences of subfamily VI & VII and reproduce findings by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
  * In `step2_classify-Azfi-RNAseq-targets` 
  ([html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/html_step2_classify-Azfi-RNAseq-targets.html) & 
  [ipynb preview](https://github.com/lauralwd/azolla_MYBs/blob/main/step2_classify-Azfi-RNAseq-targets.ipynb))
- we placed several _Azolla filiculoides_ sequences in the phylogeny of type 6 & 7 R2R3 MYBs and compare the differentiating domains as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
+ we placed several _Azolla filiculoides_ sequences in the phylogeny of subfamily VI & VII R2R3 MYBs and compare the differentiating domains as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
  * In `step3_VI-subfam_in_azolla` 
  ([html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/html_step3_VI-subfam_in_azolla.html) & 
  [ipynb preview](https://github.com/lauralwd/azolla_MYBs/blob/main/step3_VI-subfam_in_azolla.ipynb))
- missing type VI sequences were identified in the _Azolla filiculoides_ genome and added to the phylogeny.
+ missing type VI sequences were identified in the _Azolla filiculoides_ genome with hmms and added to the phylogeny.
  * In `step4_expanding-phylogeny`
  ([html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/html_step4_expanding-phylogeny.html) & 
  [ipynb preview](https://github.com/lauralwd/azolla_MYBs/blob/main/step4_expanding-phylogeny.ipynb))
- the phylogenetic analysis was expanded with R2R3 MYB sequences from all subfamilies and not just VI and VII were taken into account.
+ the phylogenetic analysis was expanded with R2R3 MYB sequences from all subfamilies (I to VIII). Sequences were taken from the [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082) paper.
  * Finally, in `step5_supplement-with-arabidopsis-sequences` 
  ([html preview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/lauralwd/azolla_MYBs/main/html_step5_supplement-with-arabidopsis-sequences.html) & 
  [ipynb preview](https://github.com/lauralwd/azolla_MYBs/blob/main/step5_supplement-with-arabidopsis-sequences.ipynb))
@@ -76,9 +76,11 @@ To do so, issue a command like so `conda env create -f ./condaenv.yaml`.
 ### Data sources used in this project
 In building these trees, we have made use of publicly available data exclusively. 
 Most notably, we build here upon the work of [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
-_Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/)
+_Azolla_ automated annotations are available on [fernbase](ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/).
+The manually re-ananotated _A. filiculoides_ R2R3 MYB sequence is made available in ENA and NCBI under accession number [....] .
+This sequence, and all raw RNA-seq reads used in this project are also made availble in ENA and NCBI under project accession number [....] .
 
-Each of these sequences and their original accession number are listed in the data folder, organised in files per subfamily type.
+All sequences taken from the several databases used here and their original accession numbers are listed in the data folder, organised in files per subfamily type.
 These sequences originate from several databases, each with a slightly different naming system.
 The [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082) paper lists each of the species used here, and where to find the right database to search for accession numbers. 
 Those are predominantly:
@@ -87,4 +89,3 @@ Those are predominantly:
  * [Congenie](http://www.congenie.org/) for _Picea abies_.
  * [marchantia.info](https://marchantia.info/search) for _Marchantia polymorpha_.
  * [uniprot](http://www.uniprot.org) for _Arabidopsis thaliana_ sequences.
-
