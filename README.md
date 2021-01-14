@@ -1,4 +1,4 @@
-This repository contains a phylogenetic tree of R2R3 MYB transcription factors as shown in \[enter publication\].
+This repository contains a phylogenetic tree of R2R3 MYB transcription factors as shown in this [preprint on bioRXiv](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2) and \[enter publication\].
 Additionally, this repository details all code and intermediate files used in the process towards infering that tree.
 
 \[enter doi link\]
