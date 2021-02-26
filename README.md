@@ -98,7 +98,7 @@ Those are predominantly:
 
 ## Links
  * [The Azolla lab](https://www.uu.nl/en/research/molecular-plant-physiology/research-topics/azolla-for-the-circular-economy) at Utrecht University
- * [A MYB phylogeny workflow](https://github.com/lauralwd/azolla_MYBs), similar to this one and featured in the same preprint.
+ * [A MIKC phylogeny workflow](https://github.com/lauralwd/MIKC_tree), similar to this one and featured in the same preprint.
  * [A blank version of this workflow](https://github.com/lauralwd/lauras_phylogeny_wf)
 
 ## Authors
