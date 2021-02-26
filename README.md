@@ -1,7 +1,11 @@
-This repository contains a phylogenetic tree of R2R3 MYB transcription factors as shown in this [preprint on bioRXiv](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2) and \[enter publication\].
+This repository contains a phylogenetic tree of R2R3 MYB transcription factors.
 Additionally, this repository details all code and intermediate files used in the process towards infering that tree.
+Many of these results are intermediate and should be treated as such.
+For the final results, please refer to the quick links listed below
 
-\[enter doi link\]
+Manuscript DOI:  [preprint on bioRXiv](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2)
+
+Repository DOI: \[enter doi link\]
 
 ### Quick links:
  * [treefile](analyses/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_trees/aligned-mafft-einsi_trim-gt4/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4_iqtree-b1000.treefile)
@@ -15,7 +19,7 @@ or [png](data/alignments_raw/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_a
  * Trimmed input sequences [fasta](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta)
 or [png](data/alignments_trimmed/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.png)
 
-### Final figure with added MSA
+### Final figure as shown in Dijkhuizen et al. 2021 with added MSA 
 The MSA shown below is not included in the manuscript for size limitations. 
 It shows the region of R2R3 MYBs used to differentiate the different subfamilies as described by [Jiang & Rao (2020)](https://doi.org/10.1104/pp.19.01082).
 The figure actually included in the paper is available [here](figures/myb_subfamiles+RNAseq_normalbootstrap-600dpi.png).
@@ -23,6 +27,7 @@ The figure actually included in the paper is available [here](figures/myb_subfam
 ![myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png](figures/myb_subfamiles+RNAseq_normalbootstrap+MSA-600dpi.png)
 
 ### Guide through folders and files
+
 The `data` folder contains (unaligned) fasta files, lists of sequence names, and aligned sequences in both trimmed and untrimmed versions. 
 File names reflect the history of that specific file and therefore tend to be rather long.
 For example `combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4.fasta` contains a combination of sequences from the subfamilies I to VIII and sequences from _Azolla filiculoides_ and _Arabidopsis thaliana_. 
@@ -39,6 +44,7 @@ These were made by importing a `.treefile` in [iToL](https://itol.embl.de/), the
 Annotation files for use in iToL can be found in the different directories in the `analyses` directory
 These `.svg` files were then finalised in Inkscape to their published form and exported as pdf or png. 
 
+### Jupyter notebooks
 The workflows shared here are documented in JuPyter notebooks (`*.ipynb`).
 Most notebooks contain intermediate work that is shared for transparency and reproducibility purposes and should be treated as such. 
 Alternativelly, the git history may be explored for more information.
@@ -89,3 +95,19 @@ Those are predominantly:
  * [Congenie](http://www.congenie.org/) for _Picea abies_.
  * [marchantia.info](https://marchantia.info/search) for _Marchantia polymorpha_.
  * [uniprot](http://www.uniprot.org) for _Arabidopsis thaliana_ sequences.
+
+## Links
+ * [The Azolla lab](https://www.uu.nl/en/research/molecular-plant-physiology/research-topics/azolla-for-the-circular-economy) at Utrecht University
+ * [A MYB phylogeny workflow](https://github.com/lauralwd/azolla_MYBs), similar to this one and featured in the same preprint.
+ * [A blank version of this workflow](https://github.com/lauralwd/lauras_phylogeny_wf)
+
+## Authors
+The analyses in this repository were conceived and executed by 
+Dr. Henriette Schluepmann ([orcid](https://orcid.org/0000-0001-6171-3029)
+                           [Utrecht University](https://www.uu.nl/staff/hschlupmann)
+                          )
+and PhD candidate 
+Laura Dijkhuizen ([orcid](https://orcid.org/0000-0002-4628-7671) 
+                  [Utrecht University](https://www.uu.nl/staff/lwdijkhuizen)
+                  [website](https://www.lauradijkhuizen.com))
+.
