@@ -5,7 +5,7 @@ For the final results, please refer to the quick links listed below
 
 Manuscript DOI:  [preprint on bioRXiv](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2)
 
-Repository DOI: \[enter doi link\]
+Repository DOI: [![DOI](https://zenodo.org/badge/283424814.svg)](https://zenodo.org/badge/latestdoi/283424814)
 
 ### Quick links:
  * [treefile](analyses/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_trees/aligned-mafft-einsi_trim-gt4/combi-I-to-VIII-Azfi-Arabidopsis_sequences_linear_aligned-mafft-einsi_trim-gt4_iqtree-b1000.treefile)
